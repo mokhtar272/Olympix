@@ -1,0 +1,651 @@
+ERROR - 2024-12-24 10:48:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-12-24 10:48:01 --> 220 smtp.gmail.com ESMTP ffacd0b85a97d-38a1c89e2d2sm14083135f8f.71 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [193.54.246.104]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [193.54.246.104]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-38a1c89e2d2sm14083135f8f.71 - gsmtp
+
+ERROR - 2024-12-24 10:48:01 --> Erreur lors de l'envoi de l'e-mail : 220 smtp.gmail.com ESMTP ffacd0b85a97d-38a1c89e2d2sm14083135f8f.71 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [193.54.246.104]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [193.54.246.104]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-38a1c89e2d2sm14083135f8f.71 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 24 Dec 2024 10:48:01 +0000
+To: mokhtarrida30@gmail.com
+Subject: =?UTF-8?Q?Confirmation=20de=20votre=20candidature?=
+From: &quot;service&quot; &lt;mokhtarrida64@gmail.com&gt;
+Return-Path: &lt;mokhtarrida64@gmail.com&gt;
+Reply-To: &lt;mokhtarrida64@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: mokhtarrida64@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;676a9161239770.38903262@gmail.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_676a9161239813.45588322&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_676a9161239813.45588322
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Bonjour MOKHTAR RIDA,
+
+ Votre candidature a été enregistrée avec succès.
+
+ Voici vos codes pour le suivi de votre candidature :
+ - **Code Candidat** : 713fce0b
+ - **Code Inscription** : db86e5cf1f68306ab5e8
+
+ Utilisez ces codes pour suivre votre candidature sur notre plateforme.
+
+ Merci pour votre participation !
+
+
+--B_ALT_676a9161239813.45588322
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=0A                Bonjour MOKHTAR RIDA,=0A                =0A             =
+   Votre candidature a =C3=A9t=C3=A9 enregistr=C3=A9e avec succ=C3=A8s.=0A =
+               =0A                Voici vos codes pour le suivi de votre ca=
+ndidature :=0A                - **Code Candidat** : 713fce0b=0A            =
+    - **Code Inscription** : db86e5cf1f68306ab5e8=0A                =0A    =
+            Utilisez ces codes pour suivre votre candidature sur notre plat=
+eforme.=0A                =0A                Merci pour votre participation=
+ !
+
+--B_ALT_676a9161239813.45588322--</pre>
+INFO - 2024-12-24 10:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 11:51:51 --> ErrorException: Undefined variable $id_conc
+in APPPATH/Views/participer.php on line 15.
+ 1 APPPATH/Views/participer.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/participer.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(156): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->inscrire()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 11:53:13 --> ErrorException: Undefined variable $id_conc
+in APPPATH/Views/participer.php on line 15.
+ 1 APPPATH/Views/participer.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/participer.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(156): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->inscrire()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 11:54:43 --> ErrorException: Undefined variable $id_conc
+in APPPATH/Views/participer.php on line 15.
+ 1 APPPATH/Views/participer.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/participer.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(158): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->inscrire()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 11:55:27 --> ErrorException: Undefined variable $id_conc
+in APPPATH/Views/participer.php on line 15.
+ 1 APPPATH/Views/participer.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/participer.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(158): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->inscrire()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 11:56:14 --> ErrorException: Undefined variable $id_conc
+in APPPATH/Views/participer.php on line 15.
+ 1 APPPATH/Views/participer.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/participer.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(158): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->inscrire()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 12:01:49 --> ErrorException: Undefined variable $id_conc
+in APPPATH/Views/participer.php on line 14.
+ 1 APPPATH/Views/participer.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/participer.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(158): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->inscrire()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 12:04:52 --> ErrorException: Undefined variable $id_conc
+in APPPATH/Views/participer.php on line 14.
+ 1 APPPATH/Views/participer.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/participer.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(157): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->inscrire()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 12:06:41 --> ErrorException: Undefined variable $id_conc
+in APPPATH/Views/participer.php on line 15.
+ 1 APPPATH/Views/participer.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/participer.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(157): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->inscrire()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 12:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 16:56:59 --> ErrorException: Undefined variable $id_conc
+in APPPATH/Views/participer.php on line 15.
+ 1 APPPATH/Views/participer.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/participer.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(157): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->inscrire()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 17:01:29 --> ErrorException: Undefined variable $categories
+in APPPATH/Views/participer.php on line 51.
+ 1 APPPATH/Views/participer.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/participer.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(156): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->inscrire()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 17:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 17:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 17:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 17:57:21 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(101): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 17:57:21 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(101): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 18:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 18:07:53 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(101): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 18:07:53 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(101): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 18:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 18:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 19:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 19:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 19:02:50 --> ErrorException: Undefined array key "cnd_id"
+in APPPATH/Views/affichage_candidatss.php on line 41.
+ 1 APPPATH/Views/affichage_candidatss.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(90): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:11:04 --> ParseError: syntax error, unexpected token "*"
+in APPPATH/Models/Db_model.php on line 483.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Concours.php(21): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Concours->afficher_jury()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:11:05 --> ParseError: syntax error, unexpected token "*"
+in APPPATH/Models/Db_model.php on line 483.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Compte.php(214): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:11:07 --> ParseError: syntax error, unexpected token "*"
+in APPPATH/Models/Db_model.php on line 483.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Compte.php(276): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->modifier_profil()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:11:10 --> ParseError: syntax error, unexpected token "*"
+in APPPATH/Models/Db_model.php on line 483.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Compte.php(214): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:11:11 --> ParseError: syntax error, unexpected token "*"
+in APPPATH/Models/Db_model.php on line 483.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Compte.php(214): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:12:01 --> ParseError: syntax error, unexpected token "*"
+in APPPATH/Models/Db_model.php on line 483.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Compte.php(214): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:13:04 --> ParseError: syntax error, unexpected token "public"
+in APPPATH/Models/Db_model.php on line 484.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Compte.php(214): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:13:05 --> ParseError: syntax error, unexpected token "public"
+in APPPATH/Models/Db_model.php on line 484.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Compte.php(214): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 19:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 19:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 19:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 19:14:44 --> ErrorException: Undefined array key "cnd_id"
+in APPPATH/Views/affichage_candidatss.php on line 41.
+ 1 APPPATH/Views/affichage_candidatss.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(90): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 19:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 19:16:24 --> ParseError: syntax error, unexpected token "public"
+in APPPATH/Models/Db_model.php on line 476.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Concours.php(21): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Concours->afficher_jury()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:17:27 --> ParseError: syntax error, unexpected token "protected"
+in APPPATH/Models/Db_model.php on line 471.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Concours.php(21): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Concours->afficher_jury()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:17:29 --> ParseError: syntax error, unexpected token "protected"
+in APPPATH/Models/Db_model.php on line 471.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Concours.php(21): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Concours->afficher_jury()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 19:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 19:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 19:20:12 --> ErrorException: Undefined array key "cnd_id"
+in APPPATH/Views/affichage_candidatss.php on line 41.
+ 1 APPPATH/Views/affichage_candidatss.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(90): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 19:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-24 19:27:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'cnd.cnd_nom AS nom,
+                cnd.cnd_prenom AS prenom,
+             ...' at line 3 in /home/2024DIFAL3/e22406953/public_html/V43/ci/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/2024DIFAL3/e22406953/public_html/V43/ci/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/2024DIFAL3/e22406953/public_html/V43/ci/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/2024DIFAL3/e22406953/public_html/V43/ci/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/2024DIFAL3/e22406953/public_html/V43/ci/app/Models/Db_model.php(257): CodeIgniter\Database\BaseConnection->query()
+#4 /home/2024DIFAL3/e22406953/public_html/V43/ci/app/Controllers/Candidature.php(82): App\Models\Db_model->get_candidats_with_documents()
+#5 /home/2024DIFAL3/e22406953/public_html/V43/ci/system/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+#6 /home/2024DIFAL3/e22406953/public_html/V43/ci/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/2024DIFAL3/e22406953/public_html/V43/ci/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/2024DIFAL3/e22406953/public_html/V43/ci/public/index.php(102): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-12-24 19:27:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'cnd.cnd_nom AS nom,
+                cnd.cnd_prenom AS prenom,
+             ...' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Db_model.php(257): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Candidature.php(82): App\Models\Db_model->get_candidats_with_documents()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:27:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'cnd.cnd_nom AS nom,
+                cnd.cnd_prenom AS prenom,
+             ...' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(257): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Candidature.php(82): App\Models\Db_model->get_candidats_with_documents()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-24 19:27:12 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'cnd.cnd_nom AS nom,
+                cnd.cnd_prenom AS prenom,
+             ...' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(257): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Candidature.php(82): App\Models\Db_model->get_candidats_with_documents()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 19:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 19:27:33 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidatss.php on line 30.
+ 1 APPPATH/Views/affichage_candidatss.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidatss', [], true)
+ 5 APPPATH/Controllers/Candidature.php(90): view('affichage_candidatss', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 19:27:33 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidatss.php on line 30.
+ 1 APPPATH/Views/affichage_candidatss.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidatss', [], true)
+ 5 APPPATH/Controllers/Candidature.php(90): view('affichage_candidatss', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 19:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 19:28:50 --> Error: Class "App\Models\ProjetModel" not found
+in APPPATH/Controllers/Candidature.php on line 254.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->attribuerNote()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 19:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 19:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 19:29:50 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidatss.php on line 30.
+ 1 APPPATH/Views/affichage_candidatss.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidatss', [], true)
+ 5 APPPATH/Controllers/Candidature.php(90): view('affichage_candidatss', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 19:29:50 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidatss.php on line 30.
+ 1 APPPATH/Views/affichage_candidatss.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidatss', [], true)
+ 5 APPPATH/Controllers/Candidature.php(90): view('affichage_candidatss', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 19:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 19:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 19:29:56 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidatss.php on line 30.
+ 1 APPPATH/Views/affichage_candidatss.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidatss', [], true)
+ 5 APPPATH/Controllers/Candidature.php(90): view('affichage_candidatss', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 19:29:56 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidatss.php on line 30.
+ 1 APPPATH/Views/affichage_candidatss.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidatss', [], true)
+ 5 APPPATH/Controllers/Candidature.php(90): view('affichage_candidatss', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 19:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 19:39:02 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidatss.php on line 30.
+ 1 APPPATH/Views/affichage_candidatss.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidatss', [], true)
+ 5 APPPATH/Controllers/Candidature.php(90): view('affichage_candidatss', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 19:39:02 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidatss.php on line 30.
+ 1 APPPATH/Views/affichage_candidatss.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidatss', [], true)
+ 5 APPPATH/Controllers/Candidature.php(90): view('affichage_candidatss', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 19:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 19:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 19:39:36 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidatss.php on line 30.
+ 1 APPPATH/Views/affichage_candidatss.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidatss', [], true)
+ 5 APPPATH/Controllers/Candidature.php(90): view('affichage_candidatss', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 19:39:36 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidatss.php on line 30.
+ 1 APPPATH/Views/affichage_candidatss.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/V43/ci/app/Views/affichage_candidatss.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidatss', [], true)
+ 5 APPPATH/Controllers/Candidature.php(90): view('affichage_candidatss', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()

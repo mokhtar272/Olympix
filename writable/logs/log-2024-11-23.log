@@ -1,0 +1,164 @@
+INFO - 2024-11-23 16:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 16:46:49 --> ErrorException: Undefined variable $id_compte
+in APPPATH/Controllers/Compte.php on line 105.
+ 1 APPPATH/Controllers/Compte.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->connecter()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 17:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 17:04:11 --> ErrorException: Trying to access array offset on value of type bool
+in APPPATH/Controllers/Compte.php on line 110.
+ 1 APPPATH/Controllers/Compte.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->connecter()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 17:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 17:14:51 --> ErrorException: Trying to access array offset on value of type bool
+in APPPATH/Controllers/Compte.php on line 132.
+ 1 APPPATH/Controllers/Compte.php(132): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->connecter()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 17:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 18:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 18:25:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/haut_jury.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Compte.php(217): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 18:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 18:27:05 --> ErrorException: Undefined variable $role
+in APPPATH/Views/menu_administrateur.php on line 4.
+ 1 APPPATH/Views/menu_administrateur.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/menu_administrateur.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Compte.php(218): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 19:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 19:06:59 --> ErrorException: Undefined variable $role
+in APPPATH/Views/menu_administrateur.php on line 4.
+ 1 APPPATH/Views/menu_administrateur.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/menu_administrateur.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Compte.php(218): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 19:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 19:08:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "connexion/affichage_profil_jury.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Compte.php(220): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 19:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 19:08:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "connexion/affichage_profil_jury.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Compte.php(220): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 19:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 19:09:38 --> ErrorException: Undefined variable $jury
+in APPPATH/Views/affichage_profil_jury.php on line 9.
+ 1 APPPATH/Views/affichage_profil_jury.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_profil_jury.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Compte.php(220): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 19:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 19:13:51 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH/HTTP/SiteURI.php on line 403.
+ 1 SYSTEMPATH/HTTP/SiteURI.php(377): CodeIgniter\HTTP\SiteURI->stringifyRelativePath()
+ 2 SYSTEMPATH/Helpers/url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl()
+ 3 APPPATH/Views/affichage_profil_jury.php(9): base_url()
+ 4 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_profil_jury.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Compte.php(220): view()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 19:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 19:23:18 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH/HTTP/SiteURI.php on line 403.
+ 1 SYSTEMPATH/HTTP/SiteURI.php(377): CodeIgniter\HTTP\SiteURI->stringifyRelativePath()
+ 2 SYSTEMPATH/Helpers/url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl()
+ 3 APPPATH/Views/affichage_profil_jury.php(9): base_url()
+ 4 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_profil_jury.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Compte.php(221): view()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 19:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 19:23:21 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH/HTTP/SiteURI.php on line 403.
+ 1 SYSTEMPATH/HTTP/SiteURI.php(377): CodeIgniter\HTTP\SiteURI->stringifyRelativePath()
+ 2 SYSTEMPATH/Helpers/url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl()
+ 3 APPPATH/Views/affichage_profil_jury.php(9): base_url()
+ 4 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_profil_jury.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Compte.php(221): view()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 19:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 19:25:30 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH/HTTP/SiteURI.php on line 403.
+ 1 SYSTEMPATH/HTTP/SiteURI.php(377): CodeIgniter\HTTP\SiteURI->stringifyRelativePath()
+ 2 SYSTEMPATH/Helpers/url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl()
+ 3 APPPATH/Views/affichage_profil_jury.php(9): base_url()
+ 4 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_profil_jury.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Compte.php(221): view()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->afficher_profil()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-23 19:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 19:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 19:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 19:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 19:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 19:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 19:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 19:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

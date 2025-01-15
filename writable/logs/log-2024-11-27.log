@@ -1,0 +1,1050 @@
+INFO - 2024-11-27 16:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 16:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 16:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 16:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 16:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 16:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 16:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 16:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 16:49:19 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 16:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 16:51:28 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 16:51:28 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 16:51:28 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 16:51:28 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 17:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 17:16:35 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 17:16:35 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 17:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 17:16:47 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 17:16:47 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 17:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 17:16:48 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 17:16:48 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 17:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 17:17:03 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 17:17:03 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 17:17:03 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 17:17:03 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 18.
+ 1 APPPATH/Views/affichage_candidats.php(18): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 17:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 17:33:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 17:33:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 17:33:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 17:33:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-27 18:05:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CandidatsPreselectionnes_concours(8) as galerie_accessible
+            FROM ...' at line 8 in /home/2024DIFAL3/e22406953/public_html/v1/ci/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/2024DIFAL3/e22406953/public_html/v1/ci/app/Models/Db_model.php(211): CodeIgniter\Database\BaseConnection->query()
+#4 /home/2024DIFAL3/e22406953/public_html/v1/ci/app/Controllers/Candidature.php(49): App\Models\Db_model->get_candidats_with_documents()
+#5 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+#6 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/2024DIFAL3/e22406953/public_html/v1/ci/public/index.php(102): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-27 18:05:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CandidatsPreselectionnes_concours(8) as galerie_accessible
+            FROM ...' at line 8
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Db_model.php(211): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Candidature.php(49): App\Models\Db_model->get_candidats_with_documents()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-27 18:05:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CandidatsPreselectionnes_concours(8) as galerie_accessible
+            FROM ...' at line 8
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(211): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Candidature.php(49): App\Models\Db_model->get_candidats_with_documents()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-27 18:05:39 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CandidatsPreselectionnes_concours(8) as galerie_accessible
+            FROM ...' at line 8
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(211): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Candidature.php(49): App\Models\Db_model->get_candidats_with_documents()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 18:06:53 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:06:53 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:06:53 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:06:53 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 18:11:32 --> ErrorException: Undefined array key "galerie_accessible"
+in APPPATH/Views/affichage_concours_jury.php on line 20.
+ 1 APPPATH/Views/affichage_concours_jury.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_concours_jury.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Concours.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Concours->afficher_jury()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 18:12:25 --> ErrorException: Undefined array key "galerie_accessible"
+in APPPATH/Views/affichage_concours_jury.php on line 20.
+ 1 APPPATH/Views/affichage_concours_jury.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_concours_jury.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Concours.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Concours->afficher_jury()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-27 18:34:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM 
+                T_CANDIDATURE_cnd AS cnd
+            JOIN 
+         ...' at line 8 in /home/2024DIFAL3/e22406953/public_html/v1/ci/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/2024DIFAL3/e22406953/public_html/v1/ci/app/Models/Db_model.php(212): CodeIgniter\Database\BaseConnection->query()
+#4 /home/2024DIFAL3/e22406953/public_html/v1/ci/app/Controllers/Candidature.php(49): App\Models\Db_model->get_candidats_with_documents()
+#5 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+#6 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/2024DIFAL3/e22406953/public_html/v1/ci/public/index.php(102): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-27 18:34:10 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM 
+                T_CANDIDATURE_cnd AS cnd
+            JOIN 
+         ...' at line 8
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Db_model.php(212): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Candidature.php(49): App\Models\Db_model->get_candidats_with_documents()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-27 18:34:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM 
+                T_CANDIDATURE_cnd AS cnd
+            JOIN 
+         ...' at line 8
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(212): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Candidature.php(49): App\Models\Db_model->get_candidats_with_documents()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-27 18:34:10 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM 
+                T_CANDIDATURE_cnd AS cnd
+            JOIN 
+         ...' at line 8
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(212): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Candidature.php(49): App\Models\Db_model->get_candidats_with_documents()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 18:35:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:35:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:35:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:35:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 18:35:21 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:35:21 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:35:21 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:35:21 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 18:35:28 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:35:28 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:35:28 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:35:28 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 18:35:46 --> ErrorException: Undefined variable $role
+in APPPATH/Controllers/Candidature.php on line 52.
+ 1 APPPATH/Controllers/Candidature.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 18:36:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:36:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:36:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:36:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 18:36:26 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:36:26 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:36:26 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:36:26 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(57): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 18:36:31 --> ErrorException: Undefined variable $role
+in APPPATH/Controllers/Candidature.php on line 52.
+ 1 APPPATH/Controllers/Candidature.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 18:36:31 --> ErrorException: Undefined variable $role
+in APPPATH/Controllers/Candidature.php on line 52.
+ 1 APPPATH/Controllers/Candidature.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 18:40:08 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(62): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:40:08 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(62): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:40:08 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(62): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:40:08 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(62): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 18:41:20 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(63): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:41:20 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(63): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:41:20 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(63): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 18:41:20 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(63): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 18:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 18:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 19:09:18 --> ErrorException: Undefined variable $comptes
+in APPPATH/Views/compte/affichage_compte.php on line 15.
+ 1 APPPATH/Views/compte/affichage_compte.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/compte/affichage_compte.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Compte.php(81): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Compte->creer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 19:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 20:19:04 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:04 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:04 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:04 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 20:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 20:19:07 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:07 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:07 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:07 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 20:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 20:19:09 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:09 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:09 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:09 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 20:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 20:19:11 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:11 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:11 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:11 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 20:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 20:19:13 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:13 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:13 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:13 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 20:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 20:19:59 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:59 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:59 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:19:59 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 20:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-27 20:20:39 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:20:39 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:20:39 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-27 20:20:39 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Views/affichage_candidats.php on line 30.
+ 1 APPPATH/Views/affichage_candidats.php(30): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22406953/public_html/v1/ci/app/Views/affichage_candidats.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('affichage_candidats', [], true)
+ 5 APPPATH/Controllers/Candidature.php(64): view('affichage_candidats', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_candidatures('8')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidature))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-27 20:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 20:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

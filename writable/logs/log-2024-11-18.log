@@ -1,0 +1,38 @@
+INFO - 2024-11-18 19:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-18 19:37:09 --> ArgumentCountError: Too few arguments to function App\Models\Db_model::get_candidature_with_documents(), 1 passed in /home/2024DIFAL3/e22406953/public_html/v1/ci/app/Controllers/Candidature.php on line 26 and exactly 2 expected
+in APPPATH/Models/Db_model.php on line 88.
+ 1 APPPATH/Controllers/Candidature.php(26): App\Models\Db_model->get_candidature_with_documents()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-18 19:38:51 --> ArgumentCountError: Too few arguments to function App\Controllers\Candidature::afficher(), 1 passed in /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH/Controllers/Candidature.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-18 19:39:21 --> ArgumentCountError: Too few arguments to function App\Controllers\Candidature::afficher(), 1 passed in /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH/Controllers/Candidature.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-18 19:40:39 --> ArgumentCountError: Too few arguments to function App\Controllers\Candidature::afficher(), 1 passed in /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH/Controllers/Candidature.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-18 19:46:07 --> ArgumentCountError: Too few arguments to function App\Controllers\Candidature::afficher(), 1 passed in /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH/Controllers/Candidature.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-18 19:47:01 --> ArgumentCountError: Too few arguments to function App\Controllers\Candidature::afficher(), 1 passed in /home/2024DIFAL3/e22406953/public_html/v1/ci/system/CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH/Controllers/Candidature.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(102): CodeIgniter\CodeIgniter->run()
